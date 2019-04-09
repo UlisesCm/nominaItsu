@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="main.js"></script>
+</head>
+<body>
+        <form class="contenedor">
+            <div class="contenedor-div">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputNombre">Nombre(s):</label>
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputApellidos">Apellidos:</label>
+                    <input type="text" class="form-control" id="inputApellidos" placeholder="Apellidos">
+                  </div>
+                </div>
+                <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputNacimiento">Fecha de Nacimiento:</label>
+                            <input type="date" class="form-control" id="inputNacimiento">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputSexo">Sexo:</label><br>
+                            Masculino <input type="radio" name="Sexo" value="M"> &nbsp;&nbsp;
+                            Femenino <input type="radio" name="Sexo" value="F">
+                        </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Domicilio:</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Calle No. Colonia">
+                </div>
+                <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCurp">Curp:</label>
+                          <input type="text" class="form-control" id="inputCurp" placeholder="Curp">
+                        </div>
+                    <div class="form-group col-md-6">
+                          <label for="inputEstadoCivil">Estado Civil:</label>
+                            <select id="inputEstadoCivil" class="form-control">                                
+                                <option selected>Soltero</option>
+                                <option>Casado</option>
+                                <option>Union Libre</option>
+                            </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputRFC">RFC:</label>
+                        <input type="text" class="form-control" id="inputRFC" placeholder="RFC">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputCuenta">No. Cuenta:</label>
+                        <input type="text" class="form-control" id="inputCuenta" placeholder="Numero de Cuenta">
+                    </div>                       
+                </div>
+                <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputArea">Area:</label>
+                            <select id="inputArea" class="form-control">                                
+                                <option selected>Finanzas</option>
+                                <option>Recursos Humanos</option>
+                                <option>Produccion</option>
+                                <option>Ventas</option>
+                                <option>Sistemas</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPuesto">Puesto:</label>
+                            <select id="inputPuesto" class="form-control">                                
+                                <option selected>Directivo</option>
+                                <option>Jefe de Area</option>
+                                <option>Administrativo</option>
+                                <option>Empleado General</option>                                    
+                            </select>
+                        </div>
+                </div>
+                <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputContrato">Tipo de Contrato:</label>
+                            <select id="inputContrato" class="form-control">                                
+                                <option selected>Honorarios</option>
+                                <option>Base</option>
+                                <option>Interinos</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputNomina">Tipo de Nomina:</label>
+                          <select id="inputNomina" class="form-control">                                
+                                <option selected>Quincenal</option>
+                                <option>Semanal</option>                                   
+                            </select>
+                        </div>
+                </div>
+                <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputDescanso">Dias de Descanso:</label>
+                            <select id="inputDescanso" class="form-control">                                
+                                <option selected>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputSueldo">Sueldo Diario:</label>
+                            <input type="text" class="form-control" placeholder="Sueldo por dia">
+                        </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </div>
+              </form>
+    
+</body>
+</html>

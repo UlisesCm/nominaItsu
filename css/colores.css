@@ -1,0 +1,32 @@
+:root{
+    /*COLORES */
+
+    /*Grises */
+    --color-gris-6: rgb(41, 41, 41);
+	--color-gris-5: rgb(63, 63, 63);
+	--color-gris-4: rgb(87, 87, 87);
+	--color-gris-3: rgb(115, 115, 115);
+	--color-gris-2: rgb(150, 150, 150);
+    --color-gris-1: rgb(235, 235, 235);
+    
+    /*Azules*/
+    --color-azul-4:rgb(74,113,166);
+    --color-azul-3:rgb(97,121,153);
+    --color-azul-2:rgb(66,176,231);
+    --color-azul-1: rgb(51,199,255);
+
+
+
+    /*Verdes*/
+    --color-verde-1: rgb(2, 166, 118);
+	--color-verde-2: rgb(0, 140, 114);
+	--color-verde-3: rgb(0, 115, 105);
+	--color-verde-4: rgb(0, 90, 91);
+    --color-verde-5: rgb(0, 56, 64);
+    /**
+	* Black and white colors
+	*/
+	
+	--color-negro-5: rgb(0, 0, 0);
+	--color-blanco-1: rgb(255, 255, 255);
+}
